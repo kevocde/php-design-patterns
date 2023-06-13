@@ -2,7 +2,7 @@
 
 namespace Kevocde\PhpDesignPatterns\Creational\FactoryMethod;
 
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../../vendor/autoload.php';
 
 use Kevocde\PhpDesignPatterns\Creational\FactoryMethod\Factories\RockyPlanetFactory;
 

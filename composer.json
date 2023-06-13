@@ -4,9 +4,9 @@
   "license": "MIT",
   "autoload": {
       "psr-4": {
-          "Kevocde\\PhpDesignPatterns\\Creational\\": "Creational/",
-          "Kevocde\\PhpDesignPatterns\\Structural\\": "Structural/",
-          "Kevocde\\PhpDesignPatterns\\Behavioral\\": "Behavioral/"
+          "Kevocde\\PhpDesignPatterns\\Creational\\": "src\\Creational/",
+          "Kevocde\\PhpDesignPatterns\\Structural\\": "src\\Structural/",
+          "Kevocde\\PhpDesignPatterns\\Behavioral\\": "src\\Behavioral/"
       }
   },
   "authors": [
