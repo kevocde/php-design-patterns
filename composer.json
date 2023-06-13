@@ -1,0 +1,20 @@
+{
+  "name": "kevocde/php-design-patterns",
+  "type": "unknown-peace",
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "Kevocde\\PhpDesignPatterns\\Creational\\": "Creational/",
+          "Kevocde\\PhpDesignPatterns\\Structural\\": "Structural/",
+          "Kevocde\\PhpDesignPatterns\\Behavioral\\": "Behavioral/"
+      }
+  },
+  "authors": [
+      {
+          "name": "kevocde",
+          "email": "kevocde@gmail.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
