@@ -2,6 +2,6 @@
 
 namespace Kevocde\PhpDesignPatterns\Creational\Builder\Astros;
 
-class Satellite extends AAbstro {
+class Satellite extends AAstro {
   const SUFIX = '_satellite';
 }

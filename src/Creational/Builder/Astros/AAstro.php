@@ -2,7 +2,7 @@
 
 namespace Kevocde\PhpDesignPatterns\Creational\Builder\Astros;
 
-abstract class AAbstro {
+abstract class AAstro {
   const SUFIX = '';
 
   /**

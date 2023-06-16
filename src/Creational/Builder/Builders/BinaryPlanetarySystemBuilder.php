@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevocde\PhpDesignPatterns\Creational\Builder;
+namespace Kevocde\PhpDesignPatterns\Creational\Builder\Builders;
 
 use Kevocde\PhpDesignPatterns\Creational\Builder\PlanetarySystem;
 use Kevocde\PhpDesignPatterns\Creational\Builder\Astros\{Star, Asteroid, Comet, Planet, Satellite};
@@ -13,7 +13,7 @@ class BinaryPlanetarySystemBuilder implements IPlanetarySystemBuilder {
    */
   protected PlanetarySystem $planetarySystem;
 
-  public function reset(string $id) {
+  public function reset(string $id): void {
     $this->planetarySystem = new PlanetarySystem($id);
   }
 
@@ -21,19 +21,19 @@ class BinaryPlanetarySystemBuilder implements IPlanetarySystemBuilder {
     $this->planetarySystem->addStart($star);
   }
 
-  public function addPlanet(Asteroid $planet): void {
+  public function addPlanet(Planet $planet): void {
     $this->planetarySystem->addPlanet($planet);
   }
 
-  public function addSatellite(Comet $satellite): void {
+  public function addSatellite(Satellite $satellite): void {
     $this->planetarySystem->addSatellite($satellite);
   }
 
-  public function addComet(Planet $comet): void {
+  public function addComet(Comet $comet): void {
     $this->planetarySystem->addComet($comet);
   }
 
-  public function addAsteroid(Satellite $asteroid): void {
+  public function addAsteroid(Asteroid $asteroid): void {
     $this->planetarySystem->addAsteroid($asteroid);
   }
 
