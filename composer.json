@@ -15,8 +15,8 @@
           "email": "kevocde@gmail.com"
       }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
-    "symfony/console": "5.4.x-dev"
+    "symfony/console": "^6.3"
   }
 }
