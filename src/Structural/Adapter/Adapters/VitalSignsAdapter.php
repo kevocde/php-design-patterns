@@ -30,7 +30,7 @@ class VitalSignsAdapter implements IDeviceAdapter {
       return [
         'temperature' => [
           'data' => $buffer['temperature'],
-          'units' => 'mmHg',
+          'units' => 'Cº',
           'count' => count($buffer['temperature']),
         ],
         'heart_rate' => [
