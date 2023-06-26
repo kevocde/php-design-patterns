@@ -9,8 +9,6 @@ use Kevocde\PhpDesignPatterns\Structural\Adapter\Meters\BloodPressure;
 use Kevocde\PhpDesignPatterns\Structural\Adapter\Meters\Glucometer;
 use Kevocde\PhpDesignPatterns\Structural\Adapter\Meters\VitalSigns;
 
-use Symfony\Component\Console\Helper\ProgressBar;
-
 $seconds = 10;
 $bloodPressure = new BloodPressure();
 $glucometer = new Glucometer();
