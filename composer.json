@@ -17,6 +17,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "symfony/var-dumper": "^6.3"
+    "symfony/var-dumper": "^6.3",
+    "ext-json": "*"
   }
 }
